@@ -1,0 +1,1 @@
+alert("Esse site não terminou, está em produção, mas pode ver como está ficando e dar dicas(Não tem imagens, só um aviso)                            This website is not finished. yet, but you can see how is going and give you opinion(Don't have images, just an alert)")

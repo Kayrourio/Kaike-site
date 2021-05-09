@@ -1,0 +1,237 @@
+#outras_pag{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	background: #ffffff;
+}
+main{
+	background:radial-gradient(#0092dbde #66ccff)
+
+}	
+nav {
+	position: absolute;
+	top: 90px;
+	right: 10px;
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 20px;
+}
+nav a{
+	text-transform: uppercase;
+	color: #dfdfdf;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+
+#Introducao{
+	text-align: left;
+	font-size: 60px;
+	color: #797979;
+    padding-bottom: 55px ;
+    padding-top: 45px;
+    padding-left: 40px;
+	background-color: #232323;
+    margin: 0px;
+	border-bottom: linear-gradient(#232323, #77ccff, 180deg), 10px;
+}
+#Introducao2{
+	text-align: left;
+	font-size: 60px;
+	color: #494949;
+    padding-bottom: 15px ;
+    padding-top: 45px;
+    padding-left: 40px;
+    margin: 0px;
+	border: 0px;
+}
+#me_apresentando{
+	width: 900;
+	height: 500px;
+    font-size: 40px;
+    margin-top: 0px;
+	color: #FFFFFF;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 30px;
+    text-align: center;
+	background: linear-gradient(60deg, #000066, #3366ff, #668cff );
+}
+/* animation: apresentacao 8s infinite;
+}
+@keyframes apresentacao {
+	0%   {background-color: #ccccff;}
+	17%  {background-color: #b3b3ff}
+	34%  {background-color: #9090ff;}
+	49%  {background-color: #8080ff;}
+	64%  {background-color: #9090ff;}
+	79%  {background-color: #b3b3ff}
+	100%   {background-color: #ccccff;}
+}*/
+#meus_planos{
+	background: white;
+	margin: 0px;
+	padding-bottom: 40px;
+}
+#plano__{
+	font-size: 30px;
+	color: yellow;
+}
+#curriculum{
+	margin: 0px;
+	background: #696969;
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-top:5px;
+	margin-right: 500px;
+}
+#fundo_conhecimento{
+	background: linear-gradient(135deg, #ff9933 17%, #ff33ff )
+}
+#texto_Ldireito{
+	display: inline-flex;
+	line-height: 25px;
+	text-align: left;
+	font-size: 25px;
+	position: relative;
+	color: #999999;
+	background: #282828;
+	margin: 50px 430px 75px 130px;
+	height: 350px;
+	padding: 10px 10px 10px 40px;
+	transition-property: box-shadow;
+    transition-duration: 0.78s;
+}
+#ftProgr{
+	width: 500px;
+	height: 350px;
+	padding: 0 10px 10px 0;
+	margin: auto auto 300 auto;
+	background: #282828;
+	transition-property: box-shadow;
+    transition-duration: 0.38s;
+}
+#texto_Ldireito:hover{
+	box-shadow: 50px 15px 8px rgba(87, 87, 87, 0.3);
+}
+#conhecimento_de_robotica{
+	display: inline-flex;
+	line-height: 25px;
+	text-align: left;
+	font-size: 25px;
+	position: relative;
+	color: #999999;
+	background: #282828;
+	margin: 50px 20px 75px 430px;
+	height: 350px;
+	padding: 10px 10px 10px 40px;
+	transition-property: box-shadow;
+    transition-duration: 0.78s;
+}
+#ftRobo{
+	width: 500px;
+	height: 350px;
+	padding: 0 10px 10px 0;
+	margin: auto auto 300 auto;
+	background: #282828;
+	transition-property: box-shadow;
+    transition-duration: 0.38s;
+}
+#conhecimento_de_robotica:hover{
+	box-shadow: 50px 15px 8px rgba(87, 87, 87, 0.3);
+}
+#gosto_por_fisica{
+	display: inline-flex;
+	line-height: 25px;
+	text-align: left;
+	font-size: 25px;
+	position: relative;
+	color: #999999;
+	background: #282828;
+	margin: 50px 430px 75px 130px;
+	height: 350px;
+	padding: 10px 10px 10px 40px;
+	transition-property: box-shadow;
+    transition-duration: 0.78s;
+}
+#palavra_contato{
+	padding-left:30px;
+	font-size: 40px;
+}
+footer ul{
+	list-style-type:none;
+}
+footer ul li{
+	padding-top: 15px;
+}
+#fim_do_site{
+	background: #232323;
+	font-size: 20px;
+	color: #ffffff;
+	padding-bottom: 50px;
+}
+.hvr-grow{ 
+	height: 155px;
+	width: 80%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    text-align: center;
+}
+form {
+	margin: 40px 0;
+	margin-right: 400px;
+	padding-left: 20px;
+}
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+.checkbox {
+	margin: 20px 0;
+}
+#enviar{
+	width: 50%;
+	padding: 20px 0;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: #cecece;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+#enviar:hover{
+	background-color: #868686;
+	transform: scale(1.1);
+}
+.hvr-grow{ 
+	height: 155px;
+	width: 80%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    text-align: center;
+}
+@media screen and (max-width: 480px){
+	.Introducao, #me_apresentando, #texto_Ldireito {
+	width: auto;
+	}
+
+}

@@ -1,0 +1,85 @@
+#contatos{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+body{
+	padding: 0px;
+	background: #999898;
+}
+
+nav {
+	position: absolute;
+	top: 120px;
+	right: 10px;
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 20px;
+}
+nav a{
+	text-transform: uppercase;
+	color: #20f03b;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+
+#Introducao{
+	text-align: left;
+	font-size: 60px;
+	color: #494949;
+    padding-bottom: 50px ;
+    padding-top: 45px;
+    padding-left: 40px;
+    margin: 0px;
+}
+
+#fim_do_site{
+	background: #1b1b22;
+	font-size: 20px;
+	color: #ffffff;
+	padding-bottom: 50px;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+
+form {
+	margin: 40px 0;
+	margin-right: 400px;
+}
+
+form label, form p {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.hvr-grow{ 
+	height: 155px;
+	width: 80%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    text-align: center;
+}
